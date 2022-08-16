@@ -133,3 +133,30 @@ a{
 .name{
     font-weight: bold;
 }
+
+
+.third{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 480px;
+    padding: 30px;
+}
+
+#author{
+    width: 480px;
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: bold;
+
+}
